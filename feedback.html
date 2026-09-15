@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Share your ideas with Tarari Kalango's campaign for 1Y Alumni Affairs Chair.">
+  <title>I Want to Hear from You | Tarari Kalango</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Tarari Kalango campaign home">
+      <span class="brand-mark" aria-hidden="true">&amp;</span>
+      <span><strong>Tarari Kalango</strong><small>1Y Alumni Affairs Chair</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">About me</a>
+      <a href="priorities.html">My priorities</a>
+      <a href="feedback.html" aria-current="page">I want to hear from you</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="feedback-layout">
+      <div class="feedback-copy">
+        <p class="eyebrow">I want to hear from you</p>
+        <h1>Your ideas should shape this campaign.</h1>
+        <p class="lede">Tell me what you would like from your 1Y Alumni Affairs Chair. You can include your name or submit your thoughts anonymously.</p>
+        <p class="privacy-note">Your response will be collected through Google Forms. Contact information is optional.</p>
+      </div>
+
+      <form class="feedback-form" id="feedback-form" data-needs-google-form>
+        <div class="field">
+          <label for="name">Name <span>Optional</span></label>
+          <input id="name" name="name" type="text" autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="email">Email <span>Optional</span></label>
+          <input id="email" name="email" type="email" autocomplete="email" inputmode="email">
+        </div>
+        <div class="field">
+          <label for="message">What would you like from your Alumni Affairs Chair?</label>
+          <textarea id="message" name="message" rows="7" required></textarea>
+        </div>
+        <label class="checkbox-field">
+          <input id="anonymous" name="anonymous" type="checkbox">
+          <span>Submit my feedback anonymously</span>
+        </label>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        <button class="button" type="submit">Send my feedback</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Tarari Kalango for 1Y Alumni Affairs Chair</p>
+    <p class="fine-print">Student campaign website</p>
+  </footer>
+</body>
+</html>
