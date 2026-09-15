@@ -17,13 +17,4 @@ if (feedbackForm) {
     status.textContent = 'This form is ready to connect once the Google Form link is added.';
   });
 
-  const anonymousCheckbox = feedbackForm.querySelector('#anonymous');
-  const identityFields = [feedbackForm.querySelector('#name'), feedbackForm.querySelector('#email')];
-
-  anonymousCheckbox.addEventListener('change', () => {
-    identityFields.forEach((field) => {
-      field.disabled = anonymousCheckbox.checked;
-      if (anonymousCheckbox.checked) field.value = '';
-    });
-  });
 }
