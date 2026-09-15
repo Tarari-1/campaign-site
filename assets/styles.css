@@ -181,6 +181,8 @@ h2 { font-size: clamp(2rem, 4vw, 3.2rem); letter-spacing: -0.03em; }
 .priority-card {
   min-height: 360px;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
   border: 1px solid var(--line);
   border-radius: 0.5rem;
   background: var(--blue-mist);
@@ -189,8 +191,8 @@ h2 { font-size: clamp(2rem, 4vw, 3.2rem); letter-spacing: -0.03em; }
 .priority-card:nth-child(2) { background: #f2f5ed; }
 .priority-card:nth-child(3) { background: #f7f1e9; }
 .priority-number { display: block; margin-bottom: 4rem; color: var(--muted); font-size: 0.78rem; font-weight: 800; }
-.priority-card h2 { font-size: clamp(2.1rem, 3vw, 3rem); }
-.priority-card p { color: var(--muted); }
+.priority-card h2 { min-height: 2.16em; margin-bottom: 1rem; font-size: clamp(2.1rem, 3vw, 3rem); }
+.priority-card p { margin-top: 0; color: var(--muted); }
 
 .som-amp { display: inline-block; color: var(--yale-blue); font-size: 1.2em; font-weight: 700; }
 
@@ -271,6 +273,7 @@ input:focus, textarea:focus, button:focus-visible, a:focus-visible { outline: 3p
   .portrait-frame { width: min(100%, 460px); }
   .priority-list { grid-template-columns: 1fr; }
   .priority-card { min-height: auto; }
+  .priority-card h2 { min-height: auto; }
   .priority-number { margin-bottom: 2rem; }
   .callout { align-items: flex-start; flex-direction: column; }
 }
