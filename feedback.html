@@ -32,46 +32,47 @@
         <p class="privacy-note">Your response will be collected through Google Forms. Contact information is optional.</p>
       </div>
 
-      <form class="feedback-form" id="feedback-form" data-needs-google-form>
+      <form class="feedback-form" id="feedback-form" action="https://docs.google.com/forms/d/e/1FAIpQLSfs0d7WGCfWhAXiCl4gSBvQcNwo3WKQSQJR7lwbs8auh52cKQ/formResponse" method="post" target="google-form-response">
         <div class="field">
           <label for="name">Name <span class="optional">Optional</span></label>
-          <input id="name" name="name" type="text" autocomplete="name">
+          <input id="name" name="entry.30404053" type="text" autocomplete="name">
         </div>
         <div class="field">
           <label for="email">Email <span class="optional">Optional</span></label>
-          <input id="email" name="email" type="email" autocomplete="email" inputmode="email">
+          <input id="email" name="entry.1923024287" type="email" autocomplete="email" inputmode="email">
         </div>
-        <fieldset class="choice-group">
+        <fieldset class="choice-group" data-required-group>
           <legend><span class="question-number">1.</span> What type of alumni engagement are you most excited about this year? <span class="instruction">Select multiple</span></legend>
           <div class="choice-list">
-            <label class="checkbox-field"><input name="engagement" type="checkbox" value="Panels &amp; speaker events"><span>Panels &amp; speaker events</span></label>
-            <label class="checkbox-field"><input name="engagement" type="checkbox" value="Small group dinners/lunches"><span>Small group dinners/lunches</span></label>
-            <label class="checkbox-field"><input name="engagement" type="checkbox" value="Career treks / 1:1 mentorship"><span>Career treks / 1:1 mentorship</span></label>
-            <label class="checkbox-field"><input name="engagement" type="checkbox" value="Informal meetups (no set agenda)"><span>Informal meetups (no set agenda)</span></label>
+            <label class="checkbox-field"><input name="entry.2042045239" type="checkbox" value="Panels &amp; speaker events"><span>Panels &amp; speaker events</span></label>
+            <label class="checkbox-field"><input name="entry.2042045239" type="checkbox" value="Small group dinners/lunches"><span>Small group dinners/lunches</span></label>
+            <label class="checkbox-field"><input name="entry.2042045239" type="checkbox" value="Career treks / 1:1 mentorship"><span>Career treks / 1:1 mentorship</span></label>
+            <label class="checkbox-field"><input name="entry.2042045239" type="checkbox" value="Informal meetups (no set agenda)"><span>Informal meetups (no set agenda)</span></label>
           </div>
         </fieldset>
 
-        <fieldset class="choice-group">
+        <fieldset class="choice-group" data-required-group>
           <legend><span class="question-number">2.</span> Beyond career advice, what would you want to hear alumni speak on? <span class="instruction">Select multiple</span></legend>
           <div class="choice-list">
-            <label class="checkbox-field"><input name="alumni-topics" type="checkbox" value="Navigating relationships &amp; family life"><span>Navigating relationships &amp; family life</span></label>
-            <label class="checkbox-field"><input name="alumni-topics" type="checkbox" value="Dealing with setbacks or loss"><span>Dealing with setbacks or loss</span></label>
-            <label class="checkbox-field"><input name="alumni-topics" type="checkbox" value="Life outside of work"><span>Life outside of work</span></label>
-            <label class="checkbox-field"><input name="alumni-topics" type="checkbox" value="I'm mainly here for career content"><span>I’m mainly here for career content</span></label>
+            <label class="checkbox-field"><input name="entry.478680034" type="checkbox" value="Navigating relationships &amp; family life"><span>Navigating relationships &amp; family life</span></label>
+            <label class="checkbox-field"><input name="entry.478680034" type="checkbox" value="Dealing with setbacks or loss"><span>Dealing with setbacks or loss</span></label>
+            <label class="checkbox-field"><input name="entry.478680034" type="checkbox" value="Life outside of work"><span>Life outside of work</span></label>
+            <label class="checkbox-field"><input name="entry.478680034" type="checkbox" value="I'm mainly here for career content"><span>I’m mainly here for career content</span></label>
           </div>
         </fieldset>
 
         <div class="field">
           <label for="alum"><span class="field-question"><span class="question-number">3.</span> Is there a specific alum (by name, role, or industry) you’d love to see brought back to campus?</span> <span class="optional">Optional</span></label>
-          <textarea id="alum" name="alum" rows="5"></textarea>
+          <textarea id="alum" name="entry.753703337" rows="5"></textarea>
         </div>
         <div class="field">
           <label for="anything-else"><span class="field-question"><span class="question-number">4.</span> Anything else?</span> <span class="optional">Optional</span></label>
-          <textarea id="anything-else" name="anything-else" rows="5"></textarea>
+          <textarea id="anything-else" name="entry.681884323" rows="5"></textarea>
         </div>
         <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
         <button class="button" type="submit">Send my feedback</button>
       </form>
+      <iframe class="submission-frame" name="google-form-response" title="Google Forms submission response"></iframe>
     </section>
   </main>
 

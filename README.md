@@ -16,9 +16,9 @@ Then visit `http://localhost:8000`.
 
 Tarari's supplied headshot is displayed on the About page. The Yale SOM ampersand currently uses a typographic treatment and can be replaced with the official asset when its source file is added to `assets/`.
 
-## Connect Google Forms
+## Google Forms
 
-Create a Google Form with name, email, feedback, and anonymous fields. Send the public form link plus the field entry IDs (`entry.123...`) so the form in `feedback.html` can be connected. Until then, submission is intentionally prevented and a configuration message is shown.
+The custom feedback form posts responses to the campaign's Google Form through a hidden response frame. The first two campaign questions require at least one selection; name, email, and both open-text questions are optional.
 
 ## Publish
 
